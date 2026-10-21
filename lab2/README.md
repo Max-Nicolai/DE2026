@@ -37,6 +37,6 @@ sudo docker volume rm $(sudo docker volume ls -qf dangling=true)
 
 sudo docker rmi -f $(sudo docker images -aq)
 
-# Delete everything
+# Delete everything 
 
 sudo docker system prune -a --volumes
