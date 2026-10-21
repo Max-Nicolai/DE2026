@@ -9,7 +9,7 @@ sudo docker build -t indikakumara/prediction-ui:0.0.1 .
 sudo docker run -p  5000:5000 -d --name=prediction-ui indikakumara/prediction-ui:0.0.1
 
 sudo docker start prediction-ui
-
+  
 sudo docker logs prediction-ui
 
 # Log in to a container
